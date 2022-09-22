@@ -1,0 +1,23 @@
+#marg{
+    margin-left: 12px;
+}
+#marg1{
+    margin-left: 17px;
+}
+#marg2{
+    margin-left: 11px;
+}
+#marg3{
+    margin-left: 10px;
+}
+#footcol{
+    color: orange;
+}
+#footcol1{
+    color: grey;
+}
+@media screen and (min-width: 701px){
+    #lg-none{
+        display: none;
+    }
+}

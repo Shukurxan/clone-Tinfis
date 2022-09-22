@@ -1,0 +1,31 @@
+#container{
+    padding-left: 73px;
+    padding-right: 73px;
+}
+
+* {box-sizing: border-box;}/*A simple css preset*/
+
+p {
+  text-align: center;/*Just aligns the paragraph info text to the center*/
+}
+
+#container1 {
+  position: relative;
+}
+#overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  transition: .5s ease-out;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#container1:hover #overlay {
+  opacity: 1;
+}
