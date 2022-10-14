@@ -130,6 +130,41 @@ export default class main extends Component {
 
         <Section3 />
         
+        <div id='container' class="overflow-hidden text-center mt-4">
+          <div class="row gy-3">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+              <div className="border bg-light rounded">
+                <a href=""><img className='img-fluid rounded' src="https://back.tinfis.uz/public/uploads/all/Ihw5F5ex34vrPhW3badUkiSAlQzFDSNhK9cRYreM.jpg" alt="" /></a>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+              <div className="border bg-light rounded">
+                <a href=""><img className='img-fluid rounded' src="https://back.tinfis.uz/public/uploads/all/H3eTTlK5F7q0NI1FLnvBif8INs6dlqCrWWOzNHtE.jpg" alt="" /></a>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+              <div className="border bg-light rounded">
+                <a href=""><img className='img-fluid rounded' src="https://back.tinfis.uz/public/uploads/all/btptplQFW0WyldVY6pDAsUtIStt5HFGu2zkCVwen.jpg" alt="" /></a>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+              <div className="border bg-light rounded">
+                <a href=""><img className='img-fluid rounded' src="https://back.tinfis.uz/public/uploads/all/JgMUmwavldreVvAJMTsEeR54Tw9pVtO6biIKGZu8.jpg" alt="" /></a>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+              <div className="border bg-light rounded">
+                <a href=""><img className='img-fluid rounded' src="https://back.tinfis.uz/public/uploads/all/7HHQDqb5D1GGHg0nrvPHJllQ0m837ZnmgJR2husK.jpg" alt="" /></a>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+              <div className="border bg-light rounded">
+                <a href=""><img className='img-fluid rounded' src="https://back.tinfis.uz/public/uploads/all/v3PPaVw2NifSP9B18yDOcRdmoj8m1iPlLO2ImQCw.jpg" alt="" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     )
   }

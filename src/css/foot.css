@@ -16,7 +16,14 @@
 #footcol1{
     color: grey;
 }
-@media screen and (min-width: 701px){
+#under-line{
+    text-decoration: none;
+}
+#under-line:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+@media screen and (min-width: 711px){
     #lg-none{
         display: none;
     }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import '../css/header.css'
 
 export default class section0 extends Component {
   render() {
@@ -256,6 +257,17 @@ export default class section0 extends Component {
                     <img src="https://back.tinfis.uz/public/uploads/all/nCunlpYxGtSTnSm6xhL5wx6hefKSZgCngkGkdN4K.jpg" className="d-block w-100" alt="" />
                   </div>
                 </div>
+              </div>
+            </div>
+            <div id='md-show' className='mt-5'>
+              <div id='ex-div' className='border border-warning rounded'>
+                <center>Do'konlar</center>
+              </div>
+              <div id='ex-div' className='border border-warning rounded'>
+                <center>Brendlar</center>
+              </div>
+              <div id='ex-div' className='border border-warning rounded'>
+                <center>Aksiyalar</center>
               </div>
             </div>
           </div>

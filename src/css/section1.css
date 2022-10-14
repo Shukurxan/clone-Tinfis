@@ -16,7 +16,6 @@
     text-decoration: underline;
 }
 
-
 .carousel-wrapper {
     display: flex;
     justify-content: space-between;
@@ -27,7 +26,6 @@
   
   .wrapped-container {
     display: flex;
-    overflow: hidden;
     width: 95%;
     justify-content: center;
   }
@@ -36,7 +34,6 @@
     width: 100%;
     height: 100%;
     position: relative;
-    overflow-y: hidden;
     display: flex;
     gap: 1em;
     scrollbar-width: none;
@@ -89,14 +86,7 @@
   .carousel-wrapper ::-webkit-scrollbar {
     height: 0px;
   }
-
   
-  @media (pointer: coarse) {
-    .carousel {
-      overflow-x: auto;
-      scrollbar-width: thin;
-    }
-  }
   #text-color{
     color: #465677;
   }
@@ -109,3 +99,4 @@
     text-decoration: underline;
     cursor: pointer;
   }
+  

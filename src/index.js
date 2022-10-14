@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from 'axios';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { BrowserRouter, Route, Link, Routes, Router } from 'react-router-dom';
@@ -8,6 +9,7 @@ import Main from './containers/main';
 import Footer from './containers/footer';
 import Navbar from './containers/navbar';
 // import Page2Header from './containers/page2header'
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -1,0 +1,37 @@
+#clients{
+    color: #414141d9;
+    margin-left: 10%;
+}
+#foot-list{
+    list-style: none;
+}
+#foot-list > a{
+    text-decoration: none;
+    font-size: 13.5pt;
+    color: #414141d9;
+}
+#foot-list a:hover{
+    text-decoration: underline;
+}
+#foot-list > a > li{
+    margin-top: 5px;
+}
+#saler{
+    color: #414141d9;
+    margin-left: 10%;
+    border: none;
+    border-style: none;
+    outline: none;
+}
+#site-info{
+    margin-top: 10px;
+    margin-left: 20%;
+    list-style: none;
+}
+#site-info > a{
+    text-decoration: none;
+    color: #414141d9;
+}
+#site-info > a > li{
+    font-size: 15pt;
+}

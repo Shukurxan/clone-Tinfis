@@ -5,7 +5,7 @@ export default class foot extends Component {
   render() {
     return (
       <div id='lg-none' className='fixed-bottom border-top bg-white'>
-        <div className='pe-5 ps-5 pt-2 d-flex justify-content-between'>
+        <div className='container-fluid pt-2 d-flex justify-content-between'>
             <div>
                 <a id='footcol' className='text-decoration-none' href=""><img id='marg' src="assets/sm-home-active.svg" alt="" /><p>Asosiy</p></a>
             </div>

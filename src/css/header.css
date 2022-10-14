@@ -25,6 +25,20 @@
     font-size: 10.5pt;
     opacity: 0.98;
 }
+#ex-div{
+    padding-top: 11px;
+    padding-bottom: 11px;
+    width: 30%;
+}
+#md-show{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (min-width: 711px) {
+    #md-show{
+        display: none;
+    }
+}
 @media screen and (max-width: 992px) {
     #over-div{
         display: none;
