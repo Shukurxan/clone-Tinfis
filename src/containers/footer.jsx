@@ -1,5 +1,6 @@
 import React from 'react'
 import "../css/footer.css"
+import Foot from '../components/foot'
 
 const footer = () => {
   return (
@@ -13,9 +14,9 @@ const footer = () => {
       <div className='pe-5 pb-5 pt-3'>
         <a className='float-end' id='under-line' href="">Hammasini o'qish</a>
       </div>
-      <div className='w-100 bg-white p-3'>
+      <div className='w-100 bg-white p-3 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
         <div className='row'>
-          <div className="col-3">
+          <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3">
             <div className='mt-4'>
               <center>
                 <img width={180} height={60} className='img-fluid' src="https://tinfis.uz/img/Logo.svg" alt="" />
@@ -36,7 +37,7 @@ const footer = () => {
               </center>
             </div>
           </div>
-          <div className="col-3">
+          <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3">
             <h4 id='clients'>Xaridorlar</h4>
             <ul id='foot-list'>
               <a href=""><li>Buyurtmani qanday qilish kerak</li></a>
@@ -49,7 +50,7 @@ const footer = () => {
             </ul>
             <button id='saler' className='btn btn-warning rounded-5'>Sotuvchining kabineti</button>
           </div>
-          <div className="col-3">
+          <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3">
             <h4 id='clients'>Hamkorlar uchun</h4>
             <ul id='foot-list'>
               <a href=""><li>TINFISda savdo qiling</li></a>
@@ -63,7 +64,7 @@ const footer = () => {
               <a href=""><li>Platforma haqida</li></a>
             </ul>
           </div>
-          <div className="col-3">
+          <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3">
             <h4 id='clients'>SAVOLLARINGIZ BORMI?</h4>
             <center>
               <img className='img-fluid mt-3' src="https://tinfis.uz/img/footer-headphone.png" alt="" />
@@ -82,10 +83,13 @@ const footer = () => {
           </div>
         </div>
       </div>
-      <div className='p-4'>
+      <div className='p-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
         <center>
           <span className='fs-5 opacity-75'>© 2021 Barcha huquqlar himoyalangan. O'zbekiston bo'ylab yetkazib beriladi.</span>
         </center>
+      </div>
+      <div className='d-xl-none d-lg-none d-md-none'>
+        <Foot />
       </div>
     </div>
   )

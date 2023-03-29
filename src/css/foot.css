@@ -23,8 +23,3 @@
     text-decoration: underline;
     cursor: pointer;
 }
-@media screen and (min-width: 711px){
-    #lg-none{
-        display: none;
-    }
-}
